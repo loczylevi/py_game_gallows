@@ -1,3 +1,4 @@
+import random
 szavak =  ['almafa']
 hosz = len(szavak[0])
 elet = 3
