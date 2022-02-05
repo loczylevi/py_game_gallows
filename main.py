@@ -1,8 +1,9 @@
 import random
 szavak =  ["tank","almafa","villámháború","körte","bojler"]
 hosz = len(szavak[0])
-elet = 3
+elet = 9
 tipp = 0
+kvalaszt = random.choice(szavak)
 eltalalt = []
 szeletelo = []
 for betu in szavak[0]:
