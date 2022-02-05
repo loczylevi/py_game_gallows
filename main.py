@@ -8,6 +8,25 @@ eltalalt = []
 szeletelo = []
 for betu in szavak[0]:
     szeletelo.append(betu)
+
+print("Gondoltam egy szóra találd ki melyik az!")
+print("10 szer probálkozhatsz alapból!")
+kerdes = input("Akarod e megváltoztatni az életed számát? (i/n)\t")
+if kerdes == "i":
+  try:
+    elet2  = int(input("Mennyi életed lenne?\t"))
+  except:
+    print("Számot kértem töki!")
+    print("Ha már ilyen vicces hangulatban vagy akkor kevesebb életed lesz! :)")
+    elet2 = 2
+elif kerdes != "n" or kerdes != "i":
+  print("Nincs ilyen opció, akkor ennyi életed lesz: 10")
+  elet2 = 9
+else:
+  elet2 = 9
+print(f"Ennyi probálkozásod van akkor alapból: {elet2+1}")
+print("________________________________________\n")
+
 while True:
     bekeres = input("kerek egy betut ")
     kereso = [szo for szo in szeletelo if bekeres == szo]
