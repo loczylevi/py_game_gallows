@@ -1,5 +1,5 @@
 import random
-szavak =  ['almafa']
+szavak =  ["tank","almafa","villámháború","körte","bojler"]
 hosz = len(szavak[0])
 elet = 3
 tipp = 0
