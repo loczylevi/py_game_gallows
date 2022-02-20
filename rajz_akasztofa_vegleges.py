@@ -119,6 +119,7 @@ while True:
         print(f"Nem, Ez a betű: \"{bekeres}\" NEM szerepel a szóban!\n")
         print(f"A jo betük eddig: {', '.join(eltalalt)}\n")
         print(f"A rosz betük: {', '.join(rossz)}\n")
+# innentöl már csak rajzolás van ez már nem lényeges
     if rajzol == 1 and egyszer_1 == 0:
         defi.forward(500)
         egyszer_1 = egyszer_1 + 1
