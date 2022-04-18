@@ -27,6 +27,7 @@ for sor in range(len(kivalaszt)):
 print("Gondoltam egy szóra találd ki melyik az!")
 print("10 szer probálkozhatsz alapból!")
 print("Kettő segítséged van ha akarod használni ird be hogy: \"segitseg\"")
+print("A program mutatja az adott betű helyiértékét is!\n(Az ismeretlen betük helyén számok és egyébb karakterek állnak. Pl: *,+,%,9)")
 kerdes = input("Akarod e megváltoztatni az életed számát? (i/n)\t")
 if kerdes == "i":
     try:
